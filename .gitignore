@@ -1,0 +1,20 @@
+# Maven - target directory containing compiled classes, test results, and packages
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid committing the heavy executable wrapper jar 
+# (Keep the script wrapper files like mvnw and mvnw.cmd)
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Log files
+*.log
+
+# Crash logs
+hs_err_pid*
